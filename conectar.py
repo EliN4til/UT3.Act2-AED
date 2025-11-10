@@ -7,7 +7,7 @@ host = 'localhost'
 puerto = 3306 # remplaza el puerto si lo has cambiado el por defecto de mysql
 db = MySQLDatabase(nombre_bd,user=usuario_mysql,password=contraseña,host=host,port=puerto)
 
-def conectar():
+def conectar(): 
     """
     Se conecta a la base de datos MySQL utilizando peewee.
     """
